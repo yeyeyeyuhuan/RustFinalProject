@@ -1,0 +1,6 @@
+id,city,score,vip
+1,Beijing,88.5,true
+2,,91.0,false
+3,Shanghai,,true
+4,Guangzhou,73.2,
+5,,,false

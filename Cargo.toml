@@ -1,0 +1,22 @@
+[package]
+name = "RustFinalProject"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "rust_final_project"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rfp"
+path = "src/main.rs"
+
+[dependencies]
+thiserror = "2"        # 错误枚举脚手架(仅定义 enum,转换链自写)
+csv = "1"              # 仅 CSV 字符级 record 切分(类型推断/列装载自写)
+rayon = "1"            # 并行 scan 数据并行(M9)
+rustyline = "14"       # REPL 行编辑
+comfy-table = "7"      # 结果表格美化输出
+
+[profile.release]
+opt-level = 3

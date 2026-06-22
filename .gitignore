@@ -1,0 +1,14 @@
+# Rust build artifacts
+/target
+
+# 报告与规划材料（不公开发布）
+/report/
+/plan.md
+/设计方案.md
+/期末作业要求.pdf
+
+# 编辑器 / 操作系统
+.idea/
+.vscode/
+.DS_Store
+*.swp

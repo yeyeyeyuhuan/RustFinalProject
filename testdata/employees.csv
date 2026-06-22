@@ -1,0 +1,11 @@
+id,name,dept_id,salary,age,active
+1,Alice,10,8500.0,30,true
+2,Bob,10,7200.0,45,true
+3,Carol,20,9300.5,38,false
+4,Dave,20,6100.0,27,true
+5,Eve,30,11000.0,52,true
+6,Frank,10,5400.0,23,false
+7,Grace,20,8800.0,41,true
+8,Heidi,30,7600.0,35,true
+9,Ivan,30,4500.0,29,false
+10,Judy,10,9900.0,48,true
